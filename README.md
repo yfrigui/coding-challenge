@@ -68,13 +68,13 @@ You do not have to build a functional UI unless you want to show off your talent
 
 ### Front-end
 
-Your project can be built using any JavaScript or CSS framework though we encourage ReactJS, Redux and raw CSS/SCSS as these are used every day at Ambassador. You are also welcome to use our React conventions library](https://www.google.com/url?q=https://www.npmjs.com/package/react-conventions&sa=D&ust=1481139227208000&usg=AFQjCNGhGao9--iGsEpopQzy4H4xhXkhzw) to help build your UI. When you're done, host it on [Heroku](https://dashboard.heroku.com).
+Your project can be built using any JavaScript or CSS framework though we encourage ReactJS, Redux and raw CSS/SCSS as these are used every day at Ambassador. You are also welcome to use our [React conventions library](https://www.google.com/url?q=https://www.npmjs.com/package/react-conventions&sa=D&ust=1481139227208000&usg=AFQjCNGhGao9--iGsEpopQzy4H4xhXkhzw) to help build your UI. When you're done, host it on [Heroku](https://dashboard.heroku.com).
 
 Alternatively, feel free to swap out similar JavaScript frameworks such as Angular and UI kits such as Bootstrap. In addition to building the referral application, complete the HTML/CSS challenge which can be found in the `/html-css-exercise` [folder in the repo](https://github.com/GetAmbassador/coding-challenge/tree/master/html-css-exercise).
 
 ### Mobile
 
-If you're interviewing for a mobile position, use the native SDKs for Android or iOS to build the UI described above. Usage of open-source libraries is not required, but feel free to demonstrate your knowledge of the mobile ecosystem (ex.the libraries at http://square.github.io/). If you're interviewing for a combination front-end/mobile position, you can blend in your front-end work into the app using a WebView.
+If you're interviewing for a mobile position, use the native SDKs for Android or iOS to build the UI described above. Usage of open-source libraries is not required, but feel free to demonstrate your knowledge of the mobile ecosystem (ex. the libraries at http://square.github.io/). If you're interviewing for a combination Front-end/Mobile position, you can blend in your Front-end work into the app using a WebView.
 
 ### README
 
