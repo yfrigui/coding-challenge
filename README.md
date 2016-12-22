@@ -34,7 +34,7 @@ The system you’ve dreamt up is very straightforward. It only needs two pages t
 
 ### Functional spec
 
-The link page is where Tim will manage his referral links. This page should be located at the root of your domain i.e. {your_url}. There should be a form to add links. It only needs one field, which is the unique title of the link e.g. spartans or wolverines. This title will form the referral url e.g. {your_url}/spartans or {your_url}/wolverines. Below this form should be a list of the active referral links with options to edit or delete links. The # of times a link has been clicked should be tracked and displayed next to each link in the list.
+The link page is where Tim will manage his referral links. This page should be located at the root of your domain i.e. {your_url}. There should be a form to add links. It only needs one field, which is the unique title of the link e.g. spartans or wolverines. This title will form the referral url e.g. {your_url}/spartans or {your_url}/wolverines. Below this form should be a list of the active referral links with options to edit or delete links. The # of times a link has been clicked should be tracked and displayed next to each link in the list. The link title should link to the Landing Page.
 
 ![Link Page](https://lh4.googleusercontent.com/E03q_HNyAyBCgyuiLN_UMkqmygSH4k1n2sZAG5p4EyothDtwXIh81nuXF0--JUsJs3PQaJJV_oIKvVqIPlNSU96Q4zT3N1f6E6Pl0XJk7wdqruNi69RlV7yUd_FhztzJEbZUkA)
 
