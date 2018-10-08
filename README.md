@@ -53,7 +53,7 @@ Choose one of the following technical tracks to build the functionality describe
 
 #### Back-end
 
-Your task is to build a REST API that can support the functionality described for the Link and Landing pages in the Functional spec. Please use [Django Rest Framework](http://www.django-rest-framework.org/) and host your project on [Heroku](https://dashboard.heroku.com). Your API should be able to:
+Your task is to build a REST API that can support the functionality described for the Link and Landing pages in the Functional spec. Please use [Django Rest Framework](http://www.django-rest-framework.org/). Your API should be able to:
 
 -	Perform CRUD actions for Link pages
 -	Track the number of visits to the Landing Page
@@ -62,7 +62,7 @@ You do not have to build a functional UI unless you want to show off your talent
 
 #### Front-end
 
-Your project can be built using any JavaScript or CSS framework though we encourage ReactJS, Redux and raw CSS/SCSS as these are used every day at Ambassador. You are also welcome to use our [React conventions library](https://www.google.com/url?q=https://www.npmjs.com/package/react-conventions&sa=D&ust=1481139227208000&usg=AFQjCNGhGao9--iGsEpopQzy4H4xhXkhzw) to help build your UI. When you're done, host it on [Heroku](https://dashboard.heroku.com).
+Your project can be built using any JavaScript or CSS framework, though we encourage ReactJS, Redux and CSS/SCSS as these are used every day at Ambassador. You are also welcome to use our [React-ions library](https://www.npmjs.com/package/react-ions) to help build your UI.
 
 Alternatively, feel free to swap out similar JavaScript frameworks such as Angular and UI kits such as Bootstrap. In addition to building the referral application, complete the HTML/CSS challenge which can be found in the `/html-css-exercise` [folder in the repo](https://github.com/GetAmbassador/coding-challenge/tree/master/html-css-exercise).
 
@@ -75,16 +75,16 @@ If you're interviewing for a mobile position, use the native SDKs for Android or
 In your repo, please include the following items in your README:
 
 -	Description of the problem and solution.
--	Whether the solution focuses on back-end, front-end or if it's full stack.
--	Reasoning behind your technical choices, including architectural.
+-	Whether the solution focuses on back-end, front-end, full stack, or mobile.
+-	Reasoning behind your technical choices, including architecture.
 -	Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
--	Link to to the hosted application where applicable.
+-	Link to to the hosted application (where applicable).
 
 This will give us insight into how you approached the challenge.
 
 ### Deployment
 
-When you're done, please deploy your project to [Heroku](https://dashboard.heroku.com). Afterwards, send a link to your repo. If you have chosen to make your repo private, please add jarell-lloyd as an admin so we can see your work.
+When you're done, please deploy your project to [Heroku](https://dashboard.heroku.com). You may deploy to another service (such as AWS), but please include your reasoning behind this choice. Afterward, send a link to your repo. If you have chosen to make your repo private, please add `jarell-lloyd` and `fieldsco` as an admin so we can see your work.
 
 ## Show us your other projects! (optional)
 
@@ -92,4 +92,4 @@ If you have existing code that you would like to share, please follow these guid
 
 -	Include a link to the repository in the README file that is part of your coding challenge submission
 -	A description of what the code does
--	If the repository has multiple contributors, please call out the parts that you were responsible for
+-	If the repository has multiple contributors, please highlight the parts for which you were responsible
