@@ -78,7 +78,7 @@ In your repo, please include the following items in your README:
 -	Whether the solution focuses on back-end, front-end, full stack, or mobile.
 -	Reasoning behind your technical choices, including architecture.
 -	Trade-offs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project.
--	Link to to the hosted application (where applicable).
+-	Link to the hosted application (where applicable).
 
 This will give us insight into how you approached the challenge.
 
