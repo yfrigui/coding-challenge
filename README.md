@@ -53,7 +53,7 @@ Choose one of the following technical tracks to build the functionality describe
 
 #### Back-end
 
-Your task is to build a REST API that can support the functionality described for the Link and Landing pages in the Functional spec. Please use [Django Rest Framework](http://www.django-rest-framework.org/). Your API should be able to:
+Your task is to build a REST API that can support the functionality described for the Link and Landing pages in the functional spec. Your project can be built using any API framework/language, though we encourage the use of [Django Rest Framework](http://www.django-rest-framework.org/)/Python as these are used every day at ambassador. Your API should be able to:
 
 -	Perform CRUD actions for Link pages
 -	Track the number of visits to the Landing Page
