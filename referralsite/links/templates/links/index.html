@@ -1,0 +1,18 @@
+<head>
+	<title> Tim's Referrals </title>
+</head>
+<body>
+	<h1> Grow the web with referrals! </h1>
+	<table>
+	    <tr>
+	        <th>Link Title</th>
+	        <th>Clicks</th>
+	    </tr>
+	    {% for l in links %}
+	    <tr> 
+	        <td>{{ l.title }}</td>
+	        <td>{{ l.clicks }}</td>
+	    </tr>
+	    {% endfor %}
+	</table>
+</body>
