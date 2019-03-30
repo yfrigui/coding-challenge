@@ -3,15 +3,25 @@
 </head>
 <body>
 	<h1> Grow the web with referrals! </h1>
-	<table>
+	<form action="/link-input/" method="post">
+    	<label for="link_input">Add a link: </label>
+    	<input id="link_input" type="text" name="link_input">
+    	<input type="submit" value="Add">
+    	{% csrf_token %}
+	</form>
+	<table width="200" border="1" class="table">
 	    <tr>
 	        <th>Link Title</th>
 	        <th>Clicks</th>
+	        <th>Edit</th>
+	        <th>Delete</th>
 	    </tr>
 	    {% for l in links %}
-	    <tr> 
-	        <td>{{ l.title }}</td>
+	    <tr> 	    	
+	        <td><a href="http://127.0.0.1:8000/landing/?link={{l.title}}">{{l.title}}</a></td>
 	        <td>{{ l.clicks }}</td>
+	        <td><a href="http://127.0.0.1:8000/edit/?link={{l.title}}">Edit</a></td>
+	        <td><a href="http://127.0.0.1:8000/delete/?link={{l.title}}">Delete</a></td>
 	    </tr>
 	    {% endfor %}
 	</table>

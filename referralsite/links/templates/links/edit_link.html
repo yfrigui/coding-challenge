@@ -1,0 +1,6 @@
+<form action="/finish-edit/?link={{link.title}}" method="post" enctype="multipart/form-data">
+    <label for="new_link_title">New link title: </label>
+    <input id="new_link_title" type="text" name="new_link_title">
+    <input type="submit" value="OK">
+    {% csrf_token %}
+</form>
